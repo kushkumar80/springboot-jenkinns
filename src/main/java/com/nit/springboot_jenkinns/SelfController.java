@@ -10,8 +10,5 @@ public class SelfController {
     public String test(){
         return "This is the testing of jenkins";
     }
-    @RequestMapping("/test1)
-    public String test1(){     
-        return "This is the testing of Github hook trigger for GItScm polling ";
-    }
+   
 }
