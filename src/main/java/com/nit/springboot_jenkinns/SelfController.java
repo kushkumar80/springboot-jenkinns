@@ -11,9 +11,4 @@ public class SelfController {
         return "This is the testing of jenkins";
     }
 
-    @RequestMapping("/test1")
-    public String test1(){
-        return "This is the testing of test2";
-    }
-
 }
